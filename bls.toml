@@ -1,0 +1,16 @@
+name = "test-for-triggers"
+version = "1.0.0"
+
+[deployment]
+permission = "public"
+nodes = 1
+
+[build]
+dir = "build"
+entry = "test-for-triggers_debug.wasm"
+command = "npm run build:debug"
+
+[build_release]
+dir = "build"
+entry = "test-for-triggers.wasm"
+command = "npm run build:release"
