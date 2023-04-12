@@ -28,7 +28,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
       - name: Blockless Action Setup
         uses: txlabs/github-action-blockless-setup@v0.0.5
-        with:
-          BLOCKLESS_ENDPOINT_URL: https://cold-heron-20.deno.dev
       - name: Blockless Function Publish
         uses: txlabs/github-action-blockless-deploy@v0.0.3
