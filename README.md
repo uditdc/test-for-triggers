@@ -2,4 +2,4 @@
 
 This is a simple application that when deployed will repeat back the string given.
 
-Build Count: 1
+Build Count: 2
